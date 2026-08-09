@@ -1,0 +1,159 @@
+cv:
+  name: Liaoyaqi Wang
+  label: PhD Student, Computer Science
+  email: wangliaoyaqi@gmail.com
+  location: Austin, TX
+  image: ""
+  summary: PhD student in Computer Science at UT Austin, working on trustworthy machine learning, calibrated LLM reasoning, and multi-agent systems.
+
+  social_networks:
+    - network: GitHub
+      username: Melodramass
+
+  address:
+    city: Austin
+    region: Texas
+    countryCode: US
+
+  sections:
+    Education:
+      - institution: University of Texas at Austin
+        location: Austin, TX, USA
+        area: Computer Science
+        studyType: PhD
+        start_date: Aug 2026
+        end_date: May 2030
+
+      - institution: Johns Hopkins University
+        location: Baltimore, MD, USA
+        area: Computer Science
+        studyType: M.S.
+        start_date: Aug 2024
+        end_date: May 2026
+        score: "GPA 3.82/4.0"
+        courses: "Trustworthy Machine Learning; Machine Learning Theory; Intro to Human Language Technology; Self-Supervised Learning"
+
+      - institution: University of California, Berkeley
+        location: Berkeley, CA, USA
+        area: Computer Science
+        studyType: BGA Student (visiting)
+        start_date: Jan 2023
+        end_date: Jul 2023
+        score: "GPA 3.67/4.0"
+        courses: "Optimization Models in Engineering; Designing, Visualizing and Understanding Deep Neural Networks; Data Structures"
+
+      - institution: Xi'an Jiaotong University
+        location: Xi'an, China
+        area: Artificial Intelligence (Honor Track)
+        studyType: B.Eng.
+        start_date: Sep 2020
+        end_date: Jul 2024
+        score: "GPA 3.63/4.0"
+        courses: "Machine Learning; Computer Vision; Natural Language Processing; Modern Control; Digital Signal Processing; Probability Theory and Stochastic Process; Reinforcement Learning"
+
+    Experience:
+      - company: Johns Hopkins University, Data Science and AI Institute
+        position: Graduate Research Assistant
+        location: Baltimore, MD
+        start_date: Feb 2026
+        end_date: Present
+
+      - company: Johns Hopkins University
+        position: "Graduate Research Assistant — Enhancing Calibrated Reasoning with Margin Process Reward"
+        location: Baltimore, MD
+        start_date: Nov 2025
+        end_date: Apr 2026
+        summary: "Advisors: Prof. Anqi Liu, Prof. Benjamin Van Durme"
+        highlights:
+          - Proposed a calibration-aware RL framework that jointly optimizes reasoning correctness and confidence reliability via margin-based process reward over intermediate reasoning states.
+          - Designed a lightweight probe-based confidence estimator using Monte Carlo forced-completion as training targets.
+          - Demonstrated improved calibration across in-domain math and out-of-domain code, science, and logic benchmarks while preserving reasoning accuracy.
+          - Validated downstream utility of calibrated confidence for conformal risk control and confidence-weighted answer aggregation.
+
+      - company: Johns Hopkins University
+        position: "Graduate Research Assistant — Scientific Feasibility Assessment Agent"
+        location: Baltimore, MD
+        start_date: May 2025
+        end_date: Present
+        summary: "Advisors: Prof. Benjamin Van Durme, Prof. Anqi Liu"
+        highlights:
+          - Architected a modular multi-agent system (using LangGraph/LangChain) that orchestrates iterative loops of literature search, reflection, and summarization to validate materials science claims.
+          - Identified and formalized the "Contextual Tunneling" failure mode, showing that naive RAG integration can degrade reasoning in scientific domains.
+          - Led the evaluation strategy and system optimization, achieving top-ranking performance in the DARPA dry run, outperforming five competing research institutions.
+
+      - company: Johns Hopkins University
+        position: "Graduate Research Assistant — Fine-grained Probabilistic Calibration and Reasoning in LLMs"
+        location: Baltimore, MD
+        start_date: Sep 2024
+        end_date: Apr 2025
+        summary: "Advisors: Prof. Benjamin Van Durme, Prof. Anqi Liu"
+        highlights:
+          - Developed synthetic data for generous-domain, long-context settings beyond human-annotated datasets.
+          - Proposed a training framework enabling direct probability modeling with modern LLM backends.
+          - Constructed an objective, comprehensive evaluation suite from existing datasets and frameworks admitting an intuitive probabilistic interpretation.
+
+      - company: University of North Carolina at Chapel Hill
+        position: "Visiting Researcher — Multimodal Clinical Outcome Prediction via LLMs and Mixture-of-Experts"
+        location: Chapel Hill, NC
+        start_date: Jun 2024
+        end_date: Aug 2024
+        summary: "Advisor: Prof. Huaxiu Yao"
+        highlights:
+          - Developed unified noise-resilient encoders to extract information from language descriptions transformed from multi-modal data.
+          - Employed a sparse Mixture-of-Experts framework to refine and dynamically integrate different modality representations for prediction.
+          - Achieved state-of-the-art performance predicting clinical trial outcomes on the HINT and CTO datasets.
+
+      - company: University of North Carolina at Chapel Hill
+        position: "Visiting Researcher — Predicting Gene Expression from Ultra-Long Sequences using Selective State-Space Models"
+        location: Chapel Hill, NC
+        start_date: Feb 2024
+        end_date: Jun 2024
+        summary: "Advisor: Prof. Huaxiu Yao"
+        highlights:
+          - Constructed a bi-directional Mamba model, a selective state-space sequence model, for gene expression prediction, effectively handling long gene sequences over 100kb.
+          - Incorporated biological prior information such as peak, exon, and gene locations to enhance model performance.
+          - Collaborated with a multidisciplinary team to integrate the sequence model into existing bioinformatics pipelines.
+
+      - company: Hong Kong University of Science and Technology
+        position: "Visiting Researcher — Dynamic Backdoor Watermarking for Ownership Protection via Text Embeddings"
+        location: Hong Kong
+        start_date: Aug 2023
+        end_date: Feb 2024
+        summary: "Advisor: Prof. Minhao Cheng"
+        highlights:
+          - Developed a method to protect the ownership of text embeddings by injecting a dynamic backdoor watermark.
+          - Balanced watermark utility and detectability, even when facing out-of-distribution data.
+          - Outperformed prior protective approaches in balancing embedding utility and watermark verification.
+
+      - company: China Telecom, Shaanxi Branch
+        position: Software Developer
+        location: Shaanxi, China
+        start_date: Jun 2023
+        end_date: Aug 2023
+
+    Awards:
+      - title: Visionary Award (Top 30)
+        awarder: 2025 LLM Hackathon for Applications in Materials and Chemistry
+        date: 2025-09-01
+
+      - title: Excellent
+        awarder: National College Students Innovation Training Program
+        date: 2023-06-01
+
+      - title: Provincial Second Prize
+        awarder: National Optoelectronic Design Competition
+        date: 2022-07-01
+
+      - title: Provincial Second Prize
+        awarder: Mathematical Contest in Modeling
+        date: 2021-01-01
+
+    Skills:
+      - name: Programming Languages
+        keywords: "Python, Java, C++, MATLAB, Git, LaTeX"
+
+      - name: Frameworks & Tools
+        keywords: "PyTorch, Hugging Face Transformers, LangGraph, LangChain, vLLM, ROS"
+
+      - name: Research Interests
+        keywords: "Trustworthy ML, LLM Calibration, Multi-Agent Systems, NLP"
