@@ -1,89 +1,99 @@
 ---
 ---
 
-@inproceedings{wang2026process,
-  bibtex_show = {true},
-  abbr        = {COLM},
-  title       = {Process Supervision of Confidence Margin for Calibrated LLM Reasoning},
-  author      = {Wang, Liaoyaqi and Zuo, Chunsheng and Jurayj, William and Van Durme, Benjamin and Liu, Anqi},
-  booktitle   = {Proceedings of the Third Conference on Language Modeling},
-  year        = {2026},
-  selected    = {true}
+@misc{zuo2026rethinkingloramemorylens,
+      abbr={arXiv},
+      title={Rethinking LoRA Memory Through the Lens of KV Cache Compression},
+      author={Chunsheng Zuo and Liaoyaqi Wang and William Jurayj and William Fleshman and Benjamin Van Durme},
+      year={2026},
+      eprint={2606.05698},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2606.05698}, 
 }
 
-@unpublished{zuo2026lora,
-  bibtex_show = {true},
-  abbr        = {EMNLP},
-  title       = {Rethinking LoRA Memory Through the Lens of KV Cache Compression},
-  author      = {Zuo, Chunsheng and Wang, Liaoyaqi and Jurayj, William and Fleshman, William and Van Durme, Benjamin},
-  note        = {Under review at EMNLP 2026},
-  year        = {2026}
+@misc{wang2026processsupervisionconfidencemargin,
+      abbr={arXiv},
+      title={Process Supervision of Confidence Margin for Calibrated LLM Reasoning},
+      author={Liaoyaqi Wang and Chunsheng Zuo and William Jurayj and Benjamin Van Durme and Anqi Liu},
+      year={2026},
+      eprint={2604.23333},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2604.23333}, 
 }
 
-@unpublished{tao2026videocer,
-  bibtex_show = {true},
-  abbr        = {AAAI},
-  title       = {Video-CER: Annotation-Free Grounded Video Understanding via Counterfactual Evidence Rewards},
-  author      = {Tao, Yeyao and Wang, Liaoyaqi and Stengel-Eskin, Elias},
-  note        = {Under review at AAAI 2026},
-  year        = {2026}
+@inproceedings{10.1145/3770855.3818954,
+abbr = {KDD},
+author = {Cao, Yi* and Wang, Liaoyaqi* and Chen, Jieneng and Van Durme, Benjamin and Yuille, Alan and Clancy, Paulette},
+title = {ARIA: A Causal-Aware Framework for Rescuing LLM Reasoning in Trustworthy Materials Discovery},
+year = {2026},
+isbn = {9798400722592},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3770855.3818954},
+doi = {10.1145/3770855.3818954},
+abstract = {Generative models have revolutionized the process of materials discovery, yet they often fail to satisfy underlying physical causality. Through an analysis of Large Language Models (LLMs) augmented with knowledge graphs derived from current literature, we uncover a phenomenon termed contextual tunneling, where models ''over-anchor'' on narrow, retrieved evidence while suppressing global physical reasoning. To address this problem, we introduce ARIA, a causal-aware framework that conditions knowledge use on mechanistic completeness. ARIA routes each query through a three-tier cascade: (i) direct causal reasoning when complete evidence chains of Process-Structure-Property (PSP) are available, (ii) physics-informed analogical transfer for sparse or novel material systems, and (iii) explicit parametric fallback when external evidence is incomplete. As a proof of concept, we construct a Knowledge Graph (KG) containing 2,839 extracted PSP relations from peer-reviewed articles in the materials literature and evaluate ARIA on forward prediction and inverse design tasks for two-dimensional (2D) materials. ARIA mitigates contextual tunneling, improves over unaugmented and naive KG-augmented baselines, and provides further gains when an online literature search is used for evidence enrichment. Crucially, ARIA produces auditable causal traces, enabling physically grounded and trustworthy AI-assisted materials discovery.},
+booktitle = {Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2},
+pages = {10543–10554},
+numpages = {12},
+keywords = {scientific discovery, large language models, knowledge graphs, causal reasoning, materials science},
+location = {Republic of Korea},
+series = {KDD '26}
 }
 
-@unpublished{zhang2026knowyoursources,
-  bibtex_show = {true},
-  abbr        = {EACL},
-  title       = {Know Your Sources: Data Selection Matters when Rewriting for Data-Constrained Pretraining},
-  author      = {Zhang, Huicong and Wang, Liaoyaqi and Uzunoglu, Arda and Li, Tianjian and Marone, Marc and Van Durme, Benjamin},
-  note        = {Under review at EACL 2026},
-  year        = {2026}
+@inproceedings{
+wang2025always,
+abbr={COLM},
+title={Always Tell Me The Odds: Fine-grained Conditional Probability Estimation},
+author={Liaoyaqi Wang* and Zhengping Jiang* and Anqi Liu and Benjamin Van Durme},
+booktitle={Second Conference on Language Modeling},
+year={2025},
+url={https://openreview.net/forum?id=xhDcG8qtw9}
 }
 
-@article{cao2026aria,
-  bibtex_show     = {true},
-  abbr            = {KDD},
-  title           = {ARIA: A Causal-Aware Framework for Rescuing LLM Reasoning in Trustworthy Materials Discovery},
-  author          = {Cao, Yi and Wang, Liaoyaqi and Chen, Jieneng and Van Durme, Benjamin and Yuille, Alan and Clancy, Paulette},
-  year            = {2026},
-  note            = {KDD 2026, accepted},
-  additional_info = {. *Equal contribution.*},
-  selected        = {true}
+@inproceedings{zheng-etal-2025-lifted,
+    abbr = "EMNLP Findings",
+    title = "{LIFTED}: Multimodal Clinical Trial Outcome Prediction via Large Language Models and Mixture-of-Experts",
+    author = "Zheng, Wenhao*  and
+      Wang, Liaoyaqi*  and
+      Peng, Dongshen  and
+      Xu, Hongxia  and
+      Li, Yun  and
+      Zhu, Hongtu  and
+      Fu, Tianfan  and
+      Yao, Huaxiu",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-emnlp.396/",
+    doi = "10.18653/v1/2025.findings-emnlp.396",
+    pages = "7503--7517",
+    ISBN = "979-8-89176-335-7",
+    abstract = "Clinical trials are pivotal yet costly processes, often spanning multiple years and requiring substantial expenses, motivating predictive models to identify likely-to-fail drugs early and save resources. Recent approaches leverage deep learning to integrate multimodal data for clinical outcome prediction; however, they rely heavily on manually designed modality-specific encoders, limiting their adaptability to new modalities and ability to effectively share information across modalities. To address these challenges, we propose a multimodal mixture-of-experts (LIFTED) framework. Specifically, LIFTED transforms modality-specific data into natural language descriptions, encoded via unified, noise-resilient encoders. A sparse Mixture-of-Experts mechanism then identifies shared patterns across modalities, extracting consistent representations. Finally, another mixture-of-experts module dynamically integrates these modality representations, emphasizing critical information. Experiments show that LIFTED significantly outperforms baseline methods in predicting clinical trial outcomes across all phases, highlighting the effectiveness of our proposed approach."
 }
 
-@inproceedings{wang2025odds,
-  bibtex_show     = {true},
-  abbr            = {COLM},
-  title           = {Always Tell Me the Odds: Fine-Grained Conditional Probability Estimation},
-  author          = {Wang, Liaoyaqi and Jiang, Zhengping and Liu, Anqi and Van Durme, Benjamin},
-  booktitle       = {Proceedings of the Second Conference on Language Modeling},
-  year            = {2025},
-  additional_info = {. *Equal contribution.*},
-  selected        = {true}
-}
-
-@inproceedings{zheng2025lifted,
-  bibtex_show     = {true},
-  abbr            = {EMNLP Findings},
-  title           = {LIFTED: Multimodal Clinical Trial Outcome Prediction via Large Language Models and Mixture-of-Experts},
-  author          = {Zheng, Wenhao and Wang, Liaoyaqi and Peng, Dongshen and Xu, Hongxia and Li, Yun and Zhu, Hongtu and Fu, Tianfan and Yao, Huaxiu},
-  booktitle       = {Findings of the Association for Computational Linguistics: EMNLP 2025},
-  pages           = {7503--7517},
-  address         = {Suzhou, China},
-  month           = {November},
-  year            = {2025},
-  publisher       = {Association for Computational Linguistics},
-  additional_info = {. *Equal contribution.*},
-  selected        = {true}
-}
-
-@inproceedings{wang2024guardemb,
-  bibtex_show = {true},
-  abbr        = {EMNLP Findings},
-  title       = {GuardEmb: Dynamic Watermark for Safeguarding Large Language Model Embedding Service Against Model Stealing Attack},
-  author      = {Wang, Liaoyaqi and Cheng, Minhao},
-  booktitle   = {Findings of the Association for Computational Linguistics: EMNLP 2024},
-  pages       = {7518--7534},
-  address     = {Miami, Florida, USA},
-  year        = {2024},
-  publisher   = {Association for Computational Linguistics},
-  selected    = {true}
+@inproceedings{wang-cheng-2024-guardemb,
+    abbr = "EMNLP Findings",
+    title = "{G}uard{E}mb: Dynamic Watermark for Safeguarding Large Language Model Embedding Service Against Model Stealing Attack",
+    author = "Wang, Liaoyaqi  and
+      Cheng, Minhao",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.441/",
+    doi = "10.18653/v1/2024.findings-emnlp.441",
+    pages = "7518--7534",
+    abstract = "Large language model (LLM) companies provide Embedding as a Service (EaaS) to assist the individual in efficiently dealing with downstream tasks such as text classification and recommendation. However, recent works reveal the risk of the model stealing attack, posing a financial threat to EaaS providers. To protect the copyright of EaaS, we propose GuardEmb, a dynamic embedding watermarking method, striking a balance between enhancing watermark detectability and preserving embedding functionality. Our approach involves selecting special tokens and perturbing embeddings containing these tokens to inject watermarks. Simultaneously, we train a verifier to detect these watermarks. In the event of an attacker attempting to replicate our EaaS for profit, their model inherits our watermarks. For watermark verification, we construct verification texts to query the suspicious EaaS, and the verifier identifies our watermarks within the responses, effectively tracing copyright infringement. Extensive experiments across diverse datasets showcase the high detectability of our watermark method, even in out-of-distribution scenarios, without compromising embedding functionality. Our code is publicly available at \url{https://github.com/Melodramass/Dynamic-Watermark}."
 }
