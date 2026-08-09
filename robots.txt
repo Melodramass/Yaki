@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://melodramass.github.io/yaki/sitemap.xml
