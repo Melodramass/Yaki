@@ -4,7 +4,7 @@
 email: wangliaoyaqi@gmail.com # your email address
 github_username: Melodramass # your GitHub username
 rss_icon: true # comment this line to hide the RSS icon
-# cv_pdf: /assets/pdf/CV.pdf # path to your CV PDF file (add the file to assets/pdf/ first)
+cv_pdf: /assets/pdf/CV.pdf # path to your CV PDF file
 scholar_userid: RPw7AlUAAAAJ # your Google Scholar ID
 # linkedin_username: # your LinkedIn username
 # x_username: # your X (Twitter) username
