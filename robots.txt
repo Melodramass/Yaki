@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://melodramass.github.io/yaki/sitemap.xml
+Sitemap: https://melodramass.github.io/Yaki/sitemap.xml
