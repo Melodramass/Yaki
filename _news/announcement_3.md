@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-09-01 09:00:00-0500
+date: 2026-07-01 09:00:00-0500
 inline: true
 related_posts: false
 ---
 
-Received a Visionary Award (Top 30) at the 2025 LLM Hackathon for Applications in Materials and Chemistry.
+Happy to announce that I received the NSF-supported KDD 2026 Student Travel Award!

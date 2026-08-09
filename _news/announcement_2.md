@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started as a Graduate Research Assistant at the Johns Hopkins University Data Science and AI Institute.
+Started as a full-time Graduate Research Assistant at the Johns Hopkins University Data Science and AI Institute.

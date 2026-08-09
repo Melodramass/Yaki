@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2026-08-01 09:00:00-0500
+date: 2025-12-01 09:00:00-0500
 inline: true
 related_posts: false
 ---
 
-Started my PhD in Computer Science at the University of Texas at Austin!
+Graduated from Johns Hopkins University with an M.S. in Computer Science.
